@@ -1,0 +1,31 @@
+[2017-06-20T10:37:06,920][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-20T10:37:07,022][INFO ][o.e.e.NodeEnvironment    ] [PUfvOcP] using [1] data paths, mounts [[/ (/dev/sda7)]], net usable_space [7.4gb], net total_space [68.7gb], spins? [possibly], types [ext4]
+[2017-06-20T10:37:07,022][INFO ][o.e.e.NodeEnvironment    ] [PUfvOcP] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-06-20T10:37:07,023][INFO ][o.e.n.Node               ] node name [PUfvOcP] derived from node ID [PUfvOcPBT2-spNPPr3h7aA]; set [node.name] to override
+[2017-06-20T10:37:07,023][INFO ][o.e.n.Node               ] version[5.4.1], pid[20296], build[2cfe0df/2017-05-29T16:05:51.443Z], OS[Linux/4.4.70-18.9-default/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_45/25.45-b02]
+[2017-06-20T10:37:07,023][INFO ][o.e.n.Node               ] JVM arguments [-Xms2g, -Xmx2g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+DisableExplicitGC, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/opt/elasticsearch-5.4.1]
+[2017-06-20T10:37:07,582][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [aggs-matrix-stats]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [ingest-common]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [lang-expression]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [lang-groovy]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [lang-mustache]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [lang-painless]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [percolator]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [reindex]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [transport-netty3]
+[2017-06-20T10:37:07,583][INFO ][o.e.p.PluginsService     ] [PUfvOcP] loaded module [transport-netty4]
+[2017-06-20T10:37:07,584][INFO ][o.e.p.PluginsService     ] [PUfvOcP] no plugins loaded
+[2017-06-20T10:37:08,541][INFO ][o.e.d.DiscoveryModule    ] [PUfvOcP] using discovery type [zen]
+[2017-06-20T10:37:08,899][INFO ][o.e.n.Node               ] initialized
+[2017-06-20T10:37:08,899][INFO ][o.e.n.Node               ] [PUfvOcP] starting ...
+[2017-06-20T10:37:08,989][INFO ][o.e.t.TransportService   ] [PUfvOcP] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}
+[2017-06-20T10:37:08,994][WARN ][o.e.b.BootstrapChecks    ] [PUfvOcP] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+[2017-06-20T10:37:08,994][WARN ][o.e.b.BootstrapChecks    ] [PUfvOcP] max number of threads [1200] for user [q0000000] is too low, increase to at least [2048]
+[2017-06-20T10:37:12,020][INFO ][o.e.c.s.ClusterService   ] [PUfvOcP] new_master {PUfvOcP}{PUfvOcPBT2-spNPPr3h7aA}{3i19E7r1SIa3UHlNu7BM7A}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-20T10:37:12,031][INFO ][o.e.h.n.Netty4HttpServerTransport] [PUfvOcP] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}
+[2017-06-20T10:37:12,034][INFO ][o.e.n.Node               ] [PUfvOcP] started
+[2017-06-20T10:37:12,089][INFO ][o.e.g.GatewayService     ] [PUfvOcP] recovered [0] indices into cluster_state
+[2017-06-20T10:37:36,483][INFO ][o.e.n.Node               ] [PUfvOcP] stopping ...
+[2017-06-20T10:37:36,494][INFO ][o.e.n.Node               ] [PUfvOcP] stopped
+[2017-06-20T10:37:36,494][INFO ][o.e.n.Node               ] [PUfvOcP] closing ...
+[2017-06-20T10:37:36,500][INFO ][o.e.n.Node               ] [PUfvOcP] closed

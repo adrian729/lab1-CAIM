@@ -2,44 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77e17d28-3bf1-461b-9055-2e2bcf3cd7cb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/_state/global-4.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/_state/node-4.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/0/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/0/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/1/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/1/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/2/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/2/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/3/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/3/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/4/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/4/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/_state/state-17.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/0/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/0/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/1/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/1/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/2/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/2/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/3/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/3/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/4/_state/state-3.st" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/4/index/segments_6" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/_state/state-22.st" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/0/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/0/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/1/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/1/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/2/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/2/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/3/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/3/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/4/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/4/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/0/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/0/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/1/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/1/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/2/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/2/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/3/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/3/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/4/translog/translog.ckp" afterPath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/4/translog/translog.ckp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a.out" afterPath="$PROJECT_DIR$/a.out" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/0/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/1/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/2/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/3/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/D927vEkCS0-o4T0vu7f8OQ/4/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/0/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/1/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/2/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/3/index/segments_7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ESconf/data/nodes/0/indices/HtwCHFlgSQu9wNC1jqUsvw/4/index/segments_7" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ESconf/logs/elasticsearch.log" afterPath="$PROJECT_DIR$/ESconf/logs/elasticsearch.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a.out" afterPath="$PROJECT_DIR$/a.out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zipf_script.py" afterPath="$PROJECT_DIR$/zipf_script.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -54,10 +29,10 @@
       <file leaf-file-name="zipf_script.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zipf_script.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+            <state relative-caret-position="354">
+              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding>
-                <element signature="e#248#285#0" expanded="true" />
+                <element signature="e#247#284#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/a.out">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -92,8 +67,8 @@
         <option value="$PROJECT_DIR$/CountWords.py" />
         <option value="$PROJECT_DIR$/ESconf/Readme" />
         <option value="$PROJECT_DIR$/SearchIndex.py" />
-        <option value="$PROJECT_DIR$/a.out" />
         <option value="$PROJECT_DIR$/Makefile" />
+        <option value="$PROJECT_DIR$/a.out" />
         <option value="$PROJECT_DIR$/zipf_script.py" />
       </list>
     </option>
@@ -206,7 +181,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#248#285#0" expanded="true" />
+            <element signature="e#247#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -224,7 +199,7 @@
         <state relative-caret-position="1110">
           <caret line="81" column="21" lean-forward="false" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
           <folding>
-            <element signature="e#248#285#0" expanded="true" />
+            <element signature="e#247#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -364,14 +339,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/a.out">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ESconf/Readme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -386,12 +353,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/a.out">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zipf_script.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+        <state relative-caret-position="354">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding>
-            <element signature="e#248#285#0" expanded="true" />
+            <element signature="e#247#284#0" expanded="true" />
           </folding>
         </state>
       </provider>

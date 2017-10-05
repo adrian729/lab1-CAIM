@@ -17,15 +17,16 @@ CountWords
 
 """
 
-
 from __future__ import print_function
 from elasticsearch import Elasticsearch
 from elasticsearch.helpers import scan
 from elasticsearch.exceptions import NotFoundError
+from scipy.optimize import curve_fit
 
 import argparse
 import bisect
 import math
+import numpy as np
 import matplotlib.pyplot as plt
 
 """
@@ -60,6 +61,10 @@ def void_uwords(word):
     return word
 
 
+def func(x, a, b, c):
+    return c / (x + b) ** a
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--index', default=None, required=True, help='Index to search')
@@ -91,13 +96,29 @@ if __name__ == '__main__':
             bisect.insort(fwl, voc[v])
         fwl.reverse()
 
-        first_words = math.floor(len(fwl) * 0.05)
+        first_words = math.floor(len(fwl) * 0.005)
+        print('Removed first %d words' % first_words)
         del fwl[:first_words]
 
-        print(fwl)
-        print(len(fwl))
-        print(len(lpal))
+        xdata = xdata = np.linspace(0, len(fwl), len(fwl))
+        ydata = fwl
+        plt.plot(xdata, ydata, 'b-', label='data')
 
+        # Fit for the parameters a, b, c of the function func
+        popt, pcov = curve_fit(func, xdata, ydata)
+        plt.plot(xdata, func(xdata, *popt), 'r-', label='fit')
+
+        print("[a, b, c]", popt)
+
+        plt.xlabel('x')
+        plt.ylabel('y')
+        plt.legend()
+        plt.show()
+
+        # print(fwl)
+        # print(len(fwl))
+        # print(len(lpal))
+        #
         # plt.plot(fwl)
         # plt.ylabel('memememe')
         # plt.show()

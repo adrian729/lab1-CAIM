@@ -143,3 +143,17 @@
 [2017-10-05T15:55:12,106][INFO ][o.e.n.Node               ] [hFpbkdN] started
 [2017-10-05T15:55:12,558][INFO ][o.e.g.GatewayService     ] [hFpbkdN] recovered [2] indices into cluster_state
 [2017-10-05T15:55:19,204][INFO ][o.e.c.r.a.AllocationService] [hFpbkdN] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[news][4], [news][3]] ...]).
+[2017-10-05T16:03:18,156][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][young][483][6] duration [1.8s], collections [1]/[1.9s], total [1.8s]/[2s], memory [414mb]->[167.6mb]/[1.9gb], all_pools {[young] [263.1mb]->[16.4mb]/[266.2mb]}{[survivor] [33.2mb]->[13.5mb]/[33.2mb]}{[old] [117.6mb]->[137.6mb]/[1.6gb]}
+[2017-10-05T16:03:18,524][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][483] overhead, spent [1.8s] collecting in the last [1.9s]
+[2017-10-05T16:03:37,832][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][young][501][7] duration [1.2s], collections [1]/[1.4s], total [1.2s]/[3.2s], memory [401.3mb]->[201.3mb]/[1.9gb], all_pools {[young] [250mb]->[1.2mb]/[266.2mb]}{[survivor] [13.5mb]->[33.2mb]/[33.2mb]}{[old] [137.6mb]->[167mb]/[1.6gb]}
+[2017-10-05T16:03:37,907][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][501] overhead, spent [1.2s] collecting in the last [1.4s]
+[2017-10-05T16:12:10,262][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][young][1010][8] duration [3.2s], collections [1]/[4.1s], total [3.2s]/[6.5s], memory [438.8mb]->[239.4mb]/[1.9gb], all_pools {[young] [238.5mb]->[4.5mb]/[266.2mb]}{[survivor] [33.2mb]->[33.2mb]/[33.2mb]}{[old] [167mb]->[201.7mb]/[1.6gb]}
+[2017-10-05T16:12:10,263][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][1010] overhead, spent [3.2s] collecting in the last [4.1s]
+[2017-10-05T16:12:28,256][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][young][1025][9] duration [2.4s], collections [1]/[3s], total [2.4s]/[8.9s], memory [471.6mb]->[236.2mb]/[1.9gb], all_pools {[young] [236.6mb]->[2.6mb]/[266.2mb]}{[survivor] [33.2mb]->[9.4mb]/[33.2mb]}{[old] [201.7mb]->[224.1mb]/[1.6gb]}
+[2017-10-05T16:12:28,381][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][1025] overhead, spent [2.4s] collecting in the last [3s]
+[2017-10-05T16:20:18,189][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][young][1490][12] duration [5s], collections [1]/[5.5s], total [5s]/[14.2s], memory [547mb]->[297.8mb]/[1.9gb], all_pools {[young] [256.5mb]->[3.5mb]/[266.2mb]}{[survivor] [33.2mb]->[7.6mb]/[33.2mb]}{[old] [257.2mb]->[286.6mb]/[1.6gb]}
+[2017-10-05T16:20:18,258][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][1490] overhead, spent [5s] collecting in the last [5.5s]
+[2017-10-05T16:32:16,606][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][young][2205][14] duration [3.3s], collections [1]/[4.1s], total [3.3s]/[17.7s], memory [561.6mb]->[349.1mb]/[1.9gb], all_pools {[young] [233.7mb]->[1.2mb]/[266.2mb]}{[survivor] [33.1mb]->[33.2mb]/[33.2mb]}{[old] [294.6mb]->[314.6mb]/[1.6gb]}
+[2017-10-05T16:32:16,709][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][2205] overhead, spent [3.3s] collecting in the last [4.1s]
+[2017-10-05T16:32:26,634][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][young][2213][15] duration [2.3s], collections [1]/[2.9s], total [2.3s]/[20s], memory [581.5mb]->[358.7mb]/[1.9gb], all_pools {[young] [233.7mb]->[28.6kb]/[266.2mb]}{[survivor] [33.2mb]->[14mb]/[33.2mb]}{[old] [314.6mb]->[344.6mb]/[1.6gb]}
+[2017-10-05T16:32:26,635][WARN ][o.e.m.j.JvmGcMonitorService] [hFpbkdN] [gc][2213] overhead, spent [2.3s] collecting in the last [2.9s]

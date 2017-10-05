@@ -25,6 +25,7 @@ from elasticsearch.exceptions import NotFoundError
 
 import argparse
 import bisect
+import math
 import matplotlib.pyplot as plt
 
 """
@@ -89,10 +90,13 @@ if __name__ == '__main__':
             lpal.append((v.encode("utf8", "ignore"), voc[v]))
             bisect.insort(fwl, voc[v])
         fwl.reverse()
+
+        first_words = math.floor(len(fwl) * 0.05)
+        del fwl[:first_words]
+
         print(fwl)
         print(len(fwl))
-        print(sum(fwl))
-        print(sum(fwl)/len(fwl))
+        print(len(lpal))
 
         # plt.plot(fwl)
         # plt.ylabel('memememe')
